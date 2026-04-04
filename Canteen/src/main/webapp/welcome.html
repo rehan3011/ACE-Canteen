@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACE Canteen</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+        }
+
+        .card {
+            background: #4b6aa3;
+            padding: 50px 60px;
+            border-radius: 25px;
+            text-align: center;
+            width: 500px;
+            color: white;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .card h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .card p {
+            font-size: 18px;
+            margin-bottom: 30px;
+            opacity: 0.9;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 18px 40px;
+            background: #4CAF50;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            border-radius: 40px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #43a047;
+            transform: scale(1.05);
+        }
+
+        .note {
+            margin-top: 25px;
+            font-size: 16px;
+            opacity: 0.9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h1>ACE Canteen</h1>
+        <p>Your samosas are just a click away.</p>
+
+        <a href="check" class="btn">START ORDER</a>
+
+        <div class="note">5 Mins or it's FREE!</div>
+    </div>
+
+</body>
+</html>
